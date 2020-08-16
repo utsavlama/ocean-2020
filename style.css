@@ -1,0 +1,61 @@
+:root {
+    --ocean-blue: #318AF2;
+    --ocean-white: #F3F5F3;
+    --ocean-blue-black: #1D2B47;
+    --jura: 'Jura', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+}
+
+header nav {
+    background-color: var(--ocean-white);
+    padding: none;
+    height: 70px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .ocean-logo {
+    height: 100%;
+    width: auto;
+    margin-left: 5%;
+}
+
+header ul {
+    list-style-type: none;
+    display: inline;
+    align-self: center;
+    margin-right: 5%;
+}
+
+header ul li {
+    display: inline;
+}
+
+header li a {
+    text-decoration: none;
+    color: var(--ocean-blue-black);
+    font-family: var(--jura);
+    font-weight: 900;
+    font-size: 0.9em;
+
+    padding: 1em 1.2em;
+}
+
+.ocean-logo img {
+    height: 100%;
+    width: auto;
+}
